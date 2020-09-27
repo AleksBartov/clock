@@ -24,10 +24,6 @@
     align-items: center;
 }
 
-svg {
-    //background: red;
-}
-
 .numbers {
     font-family: 'Ubuntu', sans-serif;
     position: absolute;
