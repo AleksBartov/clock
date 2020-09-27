@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: mediumslateblue;
+}
+
+.bigCircle {
+    width: 370px;
+    height: 370px;
+    border-radius: calc(370px/2);
+    border: 6px solid #ffffff;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    //background: red;
+}
+
+.numbers {
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    color: rgba(255,255,255,.5);     
+    font-size: 3em;
+    z-index: 2;
+}
